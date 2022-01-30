@@ -1,0 +1,13 @@
+<div class="main-container">
+  <h2>Help needed ?</h2>
+
+  <textarea placeholder="Write something here..."></textarea>
+
+  <div class="buttons-container">
+    <button>Send</button>
+
+    <button [routerLink]="['../', { outlets: { help: null } }]">
+      Close Me
+    </button>
+  </div>
+</div>
